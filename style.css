@@ -1,0 +1,540 @@
+*{
+    margin: none;
+    padding: none;
+
+}
+.Head{
+    margin:none;
+    text-align: center;
+    background-color: rgb(9, 9, 31) ;
+    width: 100%;
+    height: 18px;
+    color: #fff;
+    padding: 15px;
+
+   
+}
+span{
+    color: rgb(227, 227, 81);
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+    transition: .9s ease;
+}
+.main:hover{
+    background-color: burlywood;
+}
+.navbar{
+     width: 1200px;
+     height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.logo{
+    font-size: 60px;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: relative;
+    right: 120px;
+    color: black;
+}
+.menu{
+    width: 500px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-left: -105px;
+}
+ul{
+    display: flex;
+    position: absolute;
+    float: left;
+    left: 170px;
+    
+}
+li{
+    position: relative;
+    top: -118px;
+    list-style: none;
+    margin: 25px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .4s ease-in;
+}
+.menu2{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 900px;
+    margin-top: 24px;
+}
+.En{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.reg{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(235, 176, 28);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sign{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s ease;
+}
+.sign:focus{
+    outline: lightblue;
+}
+.content{
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 430px;
+    top: -70px;
+   
+}
+.Ch2{
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Cpar{
+    font-size: 20px;
+    position: relative;
+    top: -30px;  
+}
+
+.Creg{
+    width: 120px;
+    height: 55px;
+    background-color: rgb(235, 176, 28);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Cfree{
+    width: 140px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(60, 39, 39);
+    font-size: 15px;
+    font-weight: bold; 
+    margin-left: 20px;  
+}
+.con{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 70px;
+    position: absolute;
+    bottom: -120px;
+    
+}
+.content2{
+    margin-top: 350px;
+    text-align: center;
+    background-color: rgb(9, 9, 31);
+    width: 100%;
+    height: 320vh;
+}
+.Trd{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.wdraw{
+    padding-bottom: 15px;
+}
+ .wdrw{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.inst{
+    font-size: 25px;
+    color: white;
+}
+.get{
+    color: rgb(121, 141, 148);
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+.stp{
+    color: white;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.st{
+    color: white;
+    font-size: 25px;
+}
+.unstp{
+    color: rgb(121, 141, 148);
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+.pic1{
+    height: 600px;
+    width: 350px;
+}
+.Execution{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.EX{
+    color: #fff;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.Ul{
+    color: white;
+    font-size: 25px;
+}
+.Exx{
+    color: rgb(121, 141, 148);
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+.swap{
+
+}
+.SW{
+    color: white;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.SWW{
+    color: white;
+    font-size: 25px;
+}
+.SWWW{
+    color: rgb(121, 141, 148);
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+.assets{
+     margin-top: 150px;
+}
+.Ass{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PAS{
+    color: rgb(121, 141, 148);
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    width: 600px;
+    height: 350px;
+    
+}
+
+th{
+    color: rgb(121, 141, 148);
+    padding-bottom: 10px;
+}
+.td{
+    color: white;
+    
+    
+}
+
+.tdd{
+    color:rgb(121, 141, 148);
+    
+}
+table,th,.td,.tdd{
+    border: 1px solid lightblue;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    border-top: none;
+}
+.Breg{
+    margin-top: 50px;
+}
+.Seize{
+    text-align: center;
+    margin-top: 50px;
+}
+.Se{
+    font-size: 40px;
+    font-family: Arial;
+    position: relative;
+    top: -30px;
+}
+.PSe{
+    position: relative;
+    top: -50px;
+    font-size: 18px;
+}
+.pic2{
+    width: 800px;
+    height: 700px;
+}
+.MEE{
+    position: relative;
+    right: 350px;
+}
+.security{
+    text-align: center;
+    margin-top: 50px;
+}
+.Sec{
+    font-size: 40px;
+    font-family: Arial;
+    position: relative;
+    top: -30px;
+}
+.PSec{
+    font-size: 18px;
+    position: relative;
+    top: -50px;
+}
+.pic3{
+    width: 800px;
+    height: 700px;
+}
+.client{
+    position: relative;
+    right: 350px;
+}
+.TWC{
+    text-align: center;
+    margin-top: 60px;
+}
+.Trade{
+    font-size: 40px;
+    font-family: Arial;
+}
+.PTWC{
+    font-size: 18px;
+    position: relative;
+    top: -30px;
+}
+.tril{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.MT{
+    position: relative;
+    top: -37px;
+}
+.billi{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.TE{
+    position: relative;
+    top: -37px;
+}
+.thous{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.RP{
+    position: relative;
+    top: -37px;
+}
+.star{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.TR{
+    position: relative;
+    top: -37px;
+}
+.ahead{
+    text-align: center;
+    margin-top: 70px;
+}
+.STH{
+    font-size: 45px;
+    font-family: Arial;
+}
+.PSTH{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+.View{
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(33, 33, 87);
+}
+.image1{
+    width: 350px;
+    height: 350px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    margin-left: 470px;
+    
+}
+.img1{
+    width: 350px;
+    height: 200px;
+}
+.in{
+    position: relative;
+    top: 30px;
+    left:-115px;
+    text-decoration: none;
+    background-color: rgb(215, 216, 216);
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 4px;
+    border-radius: 10px;
+    width: 20px;
+}
+.Pin{
+    
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    right: 70px;
+    font-weight: bold;
+}
+.image2{
+    width: 350px;
+    height: 350px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    margin-left: 470px;
+    position: relative;
+    right: 450px;
+}
+.img2{
+    width: 350px;
+    height: 200px;
+}
+.Mar{
+    text-decoration: none;
+    background-color: rgb(215, 216, 216);
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 4px;
+    border-radius: 10px;
+    width: 20px;
+    position: relative;
+    top: 25px;
+    right: 90px;
+    
+
+}
+.PMar{
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+    right: 70px;
+    font-weight: bold;
+}
+.image3{
+    width: 350px;
+    height: 350px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    margin-left: 470px;
+    position: relative;
+    right: 900px;
+}
+.img3{
+    width: 350px;
+    height: 200px;
+}
+.Nvi{
+    text-decoration: none;
+    background-color: rgb(215, 216, 216);
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 4px;
+    border-radius: 10px;
+    width: 20px;
+    position: relative;
+    top: 25px;
+    right: 90px; 
+}
+.PNvi{
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+    right: 70px;
+    font-weight: bold;
+}
+.images{
+    display: flex;
+    position: relative;
+    right: 200px;
+}
+.End{
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgb(9, 9, 31);
+    padding: 10px;
+}
+.Lcon{
+    color: white;
+    font-size: 45px;
+}
+.Pconn{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: -35px;
+}
+.last{
+    position: relative;
+    right: 50px;
+    top: -30px;
+}
+.Lreg{
+    float: right;
+    position: relative;
+    top: -140px;
+}
